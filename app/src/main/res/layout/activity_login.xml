@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_clouds_sunset"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/education">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="FreeEdu"
+        android:textColor="#00BCD4"
+        android:textSize="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/usernameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/login_background"
+        android:hint="Enter your username"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/login_background"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/button_background"
+        android:text="Login"
+        android:padding="5dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#D4D8E8"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:strokeColor="#E91E63"
+        app:strokeWidth="2dp">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/notRegEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Not yet registered ? SignUp Now"
+        android:textColor="#111F6C"
+        android:textSize="17sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+</LinearLayout>
